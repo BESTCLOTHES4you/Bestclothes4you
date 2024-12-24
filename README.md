@@ -1,16 +1,38 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-<!--
-**BESTCLOTHES4you/Bestclothes4you** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Here are some ideas to get you started:
+    <!-- Home Page Section -->
+    <section id="home">
+        <h1>Welcome to Our Store</h1>
+        <p>Explore our latest products!</p>
+        <div id="featured-products">
+            <!-- Featured products will be displayed here -->
+        </div>
+    </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Store. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
